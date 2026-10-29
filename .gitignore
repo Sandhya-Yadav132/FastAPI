@@ -1,0 +1,11 @@
+# Ignore virtual environments in any subfolder
+**/venv/
+venv/
+.venv/
+
+# Ignore Python caches
+**/__pycache__/
+*.pyc
+
+# Ignore environment variables / secrets
+**.env
